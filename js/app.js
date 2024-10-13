@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   let pedidoActual = JSON.parse(localStorage.getItem('pedidoActual')) || [];
-  let numeroTicket = Math.floor(Math.random() * 10000) + 1; // Número de ticket aleatorio
+  let numeroTicket = Math.floor(Math.random() * 10000) + 1; 
 
   // Actualizar el DOM con el resumen del pedido
   function actualizarResumenPedido() {
